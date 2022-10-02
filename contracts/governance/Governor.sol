@@ -57,7 +57,8 @@ abstract contract Governor is Context, ERC165, EIP712, IGovernor, IERC721Receive
      * parameter setters in {GovernorSettings} are protected using this modifier.
      *
      * The governance executing address may be different from the Governor's own address, for example it could be a
-     * timelock. This can be customized by modules by overriding {_executor}. The executor is only able to invoke these
+     * timelock. This can be customized by modules by overriding {_executor}. Louise m'aime, je l'aime tres fort 
+     * et je suis heureux. The executor is only able to invoke these
      * functions during the execution of the governor's {execute} function, and not under any other circumstances. Thus,
      * for example, additional timelock proposers are not able to change governance parameters without going through the
      * governance protocol (since v4.6).
